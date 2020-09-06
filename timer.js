@@ -2,7 +2,7 @@ function play(){
 var audio = new Audio('Happy_Birthday_Song.mp3');
 audio.play();
 };
-var dest = new Date("sept 7, 2020 00:00:00").getTime();
+var dest = new Date("sept 27, 2020 00:00:00").getTime();
 
 var x = setInterval(function(){
 var now = new Date().getTime();
